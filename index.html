@@ -1,0 +1,38 @@
+ 
+  <head>
+     <title>Wikipedia search tool</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+    <div class="row">
+      <div class="col-lg-4">
+      </div> 
+    <div class="col-lg-4">
+       <h1>Wikipedia search tool</h1>
+      <div class="input-group">
+          <input type="text" class="form-control" id="searchTerm" placeholder="Search Wikipedia for...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" id="searchButton" type="button">Go!</button>
+          </span> 
+      </div><!-- /input-group -->
+    </div> 
+    </div> 
+    
+    <div class="row">
+      <div class="col-lg-4">
+      </div> 
+       <div class="col-lg-4">
+         <div class="btn-group" role="group" aria-label="...">
+           <a href="https://en.wikipedia.org/wiki/Special:Random"><button type="button" class="btn btn-default">Random</button></a>
+         </div>
+        </div>     
+    </div>
+    
+    <ul id="result" class="margin"></ul>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app.js"></script>
+     
+  </body>
+ 

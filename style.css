@@ -1,0 +1,37 @@
+ 
+button {
+ cursor: pointer; 
+}
+
+button:active {
+    background-color: lavender;
+}
+
+button:focus {
+    background-color: lavender;
+}
+
+h1 {
+  margin-top: 1em; 
+}
+
+.input-group {
+  margin-top: 3em;
+}
+
+.btn-group {
+  margin-top: 15px; 
+}
+
+#result {
+  margin-top: 15px;
+}
+
+.margin {
+ margin-left: 15px;  
+}
+
+li a {
+  color: orange;
+}
+
