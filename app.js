@@ -29,6 +29,7 @@ $(document).ready(function() {
     });
   
    $('#searchTerm').keypress(function(e){
+      $(".margin").empty(); //to clear results with new search
       if(e.which == 13) {
         $('#searchButton').click();        
       }
